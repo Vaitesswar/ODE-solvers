@@ -1,4 +1,4 @@
-%% 1-step Adams–Bashforth methods
+%% 1-step Adamsâ€“Bashforth methods
 tic
 y0_possible = 0:0.0001:1;
 n = 1; % Change order of reaction
@@ -41,7 +41,7 @@ xlabel('\Upsilon')
 ylabel('\phi')
 title(['Plot of \phi against \Upsilon (Adam-Bashforth order 1 for n = ', num2str(n), ')']) 	
 toc
-%% 2-step Adams–Bashforth methods
+%% 2-step Adamsâ€“Bashforth methods
 tic
 y0_possible = 0:0.0001:1;
 n = 1; % Change order of reaction
@@ -84,7 +84,7 @@ xlabel('\Upsilon')
 ylabel('\phi')
 title(['Plot of \phi against \Upsilon (Adam-Bashforth order 2 for n = ', num2str(n), ')']) 	
 toc
-%% 3-step Adams–Bashforth methods
+%% 3-step Adamsâ€“Bashforth methods
 tic
 y0_possible = 0:0.0001:1;
 n = 1; % Change order of reaction
@@ -127,7 +127,7 @@ xlabel('\Upsilon')
 ylabel('\phi')
 title(['Plot of \phi against \Upsilon (Adam-Bashforth order 3 for n = ', num2str(n), ')']) 	
 toc
-%% 4-step Adams–Bashforth methods
+%% 4-step Adamsâ€“Bashforth methods
 tic
 y0_possible = 0:0.0001:1;
 n = 1; % Change order of reaction
